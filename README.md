@@ -2,6 +2,30 @@
 
 An open-source tool for long-term monitoring of IPv6 Full Response Prefixes (FRP). It performs global IPv6 FRP probing and data collection using mature existing algorithms.
 
+## Analysis Results
+
+### BGP IPv6 Routing Prefix Analysis
+
+We provide comprehensive analysis of BGP-announced IPv6 Fully Responsive Prefixes (FRPs) across different protocols. The following charts show the trends over time:
+
+#### Daily New BGP Prefixes
+![BGP IPv6 Routing Prefix Count Over Time](server_routing/analysis/prefix_count.png)
+
+#### Daily New Address Space Size
+![BGP IPv6 Routing Address Space Size Over Time](server_routing/analysis/address_space.png)
+
+#### Cumulative Address Space Size (Deduplicated)
+![Cumulative BGP IPv6 Routing Address Space Size](server_routing/analysis/cumulative_address_space.png)
+
+#### Cumulative Prefix Count (Deduplicated)
+![Cumulative BGP IPv6 Routing Prefix Count](server_routing/analysis/cumulative_prefix_count.png)
+
+### Key Features
+- **Deduplicated Analysis**: All cumulative metrics are calculated after removing duplicate prefixes
+- **Multi-Protocol Support**: Analysis across ICMPv6, TCP/80, TCP/443, and UDP/53 protocols
+- **Daily Updates**: Data is updated daily with new measurements
+- **Visual Insights**: Clear, professional charts for easy interpretation
+
 ### Folder Structure
 ```plaintext
 FRP-watcher/
@@ -11,14 +35,12 @@ FRP-watcher/
 │   ├── ICMPv6/          # BGP FRPs under ICMPv6 probing
 │   ├── TCP80/           # BGP FRPs under TCP/80 probing
 │   ├── TCP443/          # BGP FRPs under TCP/443 probing
-│   └── UDP53/           # BGP FRPs under UDP/53 probing
+│   ├── UDP53/           # BGP FRPs under UDP/53 probing
+│   └── analysis/        # Generated analysis charts and data
 ├── all_shortest.txt     # Take the shortest among all accumulated FRPs so far.
+├── analyze_prefixes.py  # Script for generating analysis charts
 └── README.md            # Project documentation
 ```
-
-
-
-
 
 ## Citation
 
@@ -36,7 +58,6 @@ If you find this paper useful in your research, please cite this paper.
   date = {September 22-25},
 }
 ```
-
 
 ```
 @INPROCEEDINGS{cheng2024luori,
