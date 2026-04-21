@@ -1059,10 +1059,10 @@
     },
     {
       "date": "2026-04-20",
-      "count": 0,
-      "size": 0,
-      "cumulative_size": 22304392878848.0,
-      "unique_total": 7424
+      "count": 27,
+      "size": 184701550592.0,
+      "cumulative_size": 22489094429440.0,
+      "unique_total": 7451
     }
   ],
   "TCP80": [
@@ -4215,10 +4215,10 @@
     },
     {
       "date": "2026-04-20",
-      "count": 0,
-      "size": 0,
-      "cumulative_size": 45462126592.0,
-      "unique_total": 149
+      "count": 1,
+      "size": 16777216.0,
+      "cumulative_size": 45478903808.0,
+      "unique_total": 150
     }
   ]
 }
