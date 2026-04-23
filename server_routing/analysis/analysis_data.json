@@ -990,7 +990,6 @@
     {
       "date": "2026-04-10",
       "count": 10,
-<<<<<<< Updated upstream
       "size": 12887523328.0,
       "cumulative_size": 22064875706624.0,
       "unique_total": 7344
@@ -1064,18 +1063,13 @@
       "size": 184701550592.0,
       "cumulative_size": 22489094429440.0,
       "unique_total": 7451
-=======
-      "size": 8590458880.0,
-      "cumulative_size": 20219304483072.0,
-      "unique_total": 6977
     },
     {
-      "date": "2026-03-14",
-      "count": 7,
-      "size": 8591441920.0,
-      "cumulative_size": 20227895924992.0,
-      "unique_total": 6984
->>>>>>> Stashed changes
+      "date": "2026-04-21",
+      "count": 8,
+      "size": 13153599488.0,
+      "cumulative_size": 22502248028928.0,
+      "unique_total": 7459
     }
   ],
   "TCP80": [
@@ -2105,7 +2099,6 @@
       "date": "2026-04-17",
       "count": 5,
       "size": 262144.0,
-<<<<<<< Updated upstream
       "cumulative_size": 1659252513536.0,
       "unique_total": 2577
     },
@@ -2129,17 +2122,13 @@
       "size": 0,
       "cumulative_size": 1659252513536.0,
       "unique_total": 2577
-=======
-      "cumulative_size": 1478581950720.0,
-      "unique_total": 2436
     },
     {
-      "date": "2026-03-14",
-      "count": 2,
-      "size": 1114112.0,
-      "cumulative_size": 1478583064832.0,
-      "unique_total": 2438
->>>>>>> Stashed changes
+      "date": "2026-04-21",
+      "count": 3,
+      "size": 196608.0,
+      "cumulative_size": 1659252710144.0,
+      "unique_total": 2580
     }
   ],
   "TCP443": [
@@ -2972,7 +2961,6 @@
     {
       "date": "2026-03-20",
       "count": 4,
-<<<<<<< Updated upstream
       "size": 4194304.0,
       "cumulative_size": 480447715584.0,
       "unique_total": 2284
@@ -3193,18 +3181,13 @@
       "size": 0,
       "cumulative_size": 485018327808.0,
       "unique_total": 2378
-=======
-      "size": 262144.0,
-      "cumulative_size": 480443783424.0,
-      "unique_total": 2270
     },
     {
-      "date": "2026-03-14",
-      "count": 1,
-      "size": 65536.0,
-      "cumulative_size": 480443848960.0,
-      "unique_total": 2271
->>>>>>> Stashed changes
+      "date": "2026-04-21",
+      "count": 4,
+      "size": 262144.0,
+      "cumulative_size": 485018589952.0,
+      "unique_total": 2382
     }
   ],
   "UDP53": [
@@ -4028,16 +4011,11 @@
       "unique_total": 148
     },
     {
-<<<<<<< Updated upstream
       "date": "2026-03-19",
-=======
-      "date": "2026-03-14",
->>>>>>> Stashed changes
       "count": 0,
       "size": 0,
       "cumulative_size": 45462061056.0,
       "unique_total": 148
-<<<<<<< Updated upstream
     },
     {
       "date": "2026-03-20",
@@ -4262,8 +4240,13 @@
       "size": 16777216.0,
       "cumulative_size": 45478903808.0,
       "unique_total": 150
-=======
->>>>>>> Stashed changes
+    },
+    {
+      "date": "2026-04-21",
+      "count": 0,
+      "size": 0,
+      "cumulative_size": 45478903808.0,
+      "unique_total": 150
     }
   ]
 }
