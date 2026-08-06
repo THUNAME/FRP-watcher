@@ -1798,6 +1798,13 @@
       "size": 9479192576.0,
       "cumulative_size": 30652667468544.0,
       "unique_total": 8913
+    },
+    {
+      "date": "2026-08-04",
+      "count": 37,
+      "size": 692566294528.0,
+      "cumulative_size": 31345233763072.0,
+      "unique_total": 8950
     }
   ],
   "TCP80": [
@@ -3585,6 +3592,13 @@
       "size": 285212672.0,
       "cumulative_size": 2087690115840.0,
       "unique_total": 2934
+    },
+    {
+      "date": "2026-08-04",
+      "count": 6,
+      "size": 805502976.0,
+      "cumulative_size": 2088495618816.0,
+      "unique_total": 2940
     }
   ],
   "TCP443": [
@@ -5372,6 +5386,13 @@
       "size": 268435456.0,
       "cumulative_size": 597981551360.0,
       "unique_total": 2819
+    },
+    {
+      "date": "2026-08-04",
+      "count": 9,
+      "size": 805699584.0,
+      "cumulative_size": 598787250944.0,
+      "unique_total": 2828
     }
   ],
   "UDP53": [
@@ -7155,6 +7176,13 @@
     },
     {
       "date": "2026-08-03",
+      "count": 0,
+      "size": 0,
+      "cumulative_size": 88430411776.0,
+      "unique_total": 175
+    },
+    {
+      "date": "2026-08-04",
       "count": 0,
       "size": 0,
       "cumulative_size": 88430411776.0,
