@@ -2344,6 +2344,13 @@
       "size": 34603008.0,
       "cumulative_size": 38066211724032.0,
       "unique_total": 10164
+    },
+    {
+      "date": "2026-10-23",
+      "count": 50,
+      "size": 86236987392.0,
+      "cumulative_size": 38152448711424.0,
+      "unique_total": 10214
     }
   ],
   "TCP80": [
