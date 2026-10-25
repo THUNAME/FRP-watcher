@@ -4684,6 +4684,13 @@
       "size": 17825792.0,
       "cumulative_size": 2608038812416.0,
       "unique_total": 3178
+    },
+    {
+      "date": "2026-10-23",
+      "count": 7,
+      "size": 50593792.0,
+      "cumulative_size": 2608089406208.0,
+      "unique_total": 3185
     }
   ],
   "TCP443": [
@@ -7017,6 +7024,13 @@
       "size": 51380224.0,
       "cumulative_size": 696109521664.0,
       "unique_total": 3031
+    },
+    {
+      "date": "2026-10-23",
+      "count": 7,
+      "size": 50593792.0,
+      "cumulative_size": 696160115456.0,
+      "unique_total": 3038
     }
   ],
   "UDP53": [
