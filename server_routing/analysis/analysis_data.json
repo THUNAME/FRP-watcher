@@ -2393,6 +2393,27 @@
       "size": 43219615744.0,
       "cumulative_size": 38784147921664.0,
       "unique_total": 10278
+    },
+    {
+      "date": "2026-10-28",
+      "count": 12,
+      "size": 38655361024.0,
+      "cumulative_size": 38822803282688.0,
+      "unique_total": 10290
+    },
+    {
+      "date": "2026-10-29",
+      "count": 9,
+      "size": 4366532608.0,
+      "cumulative_size": 38827169815296.0,
+      "unique_total": 10299
+    },
+    {
+      "date": "2026-10-30",
+      "count": 4,
+      "size": 4311810048.0,
+      "cumulative_size": 38831481625344.0,
+      "unique_total": 10303
     }
   ],
   "TCP80": [
@@ -4775,6 +4796,27 @@
       "size": 4390912.0,
       "cumulative_size": 2608110770944.0,
       "unique_total": 3196
+    },
+    {
+      "date": "2026-10-28",
+      "count": 5,
+      "size": 268697600.0,
+      "cumulative_size": 2608379468544.0,
+      "unique_total": 3201
+    },
+    {
+      "date": "2026-10-29",
+      "count": 6,
+      "size": 306380800.0,
+      "cumulative_size": 2608685849344.0,
+      "unique_total": 3207
+    },
+    {
+      "date": "2026-10-30",
+      "count": 1,
+      "size": 65536.0,
+      "cumulative_size": 2608685914880.0,
+      "unique_total": 3208
     }
   ],
   "TCP443": [
@@ -7157,6 +7199,27 @@
       "size": 131072.0,
       "cumulative_size": 696177285888.0,
       "unique_total": 3045
+    },
+    {
+      "date": "2026-10-28",
+      "count": 6,
+      "size": 268763136.0,
+      "cumulative_size": 696446049024.0,
+      "unique_total": 3051
+    },
+    {
+      "date": "2026-10-29",
+      "count": 4,
+      "size": 268632064.0,
+      "cumulative_size": 696714681088.0,
+      "unique_total": 3055
+    },
+    {
+      "date": "2026-10-30",
+      "count": 1,
+      "size": 4194304.0,
+      "cumulative_size": 696718875392.0,
+      "unique_total": 3056
     }
   ],
   "UDP53": [
@@ -9539,6 +9602,27 @@
       "size": 0,
       "cumulative_size": 101350572032.0,
       "unique_total": 190
+    },
+    {
+      "date": "2026-10-28",
+      "count": 0,
+      "size": 0,
+      "cumulative_size": 101350572032.0,
+      "unique_total": 190
+    },
+    {
+      "date": "2026-10-29",
+      "count": 2,
+      "size": 4259840.0,
+      "cumulative_size": 101354831872.0,
+      "unique_total": 192
+    },
+    {
+      "date": "2026-10-30",
+      "count": 0,
+      "size": 0,
+      "cumulative_size": 101354831872.0,
+      "unique_total": 192
     }
   ]
 }
