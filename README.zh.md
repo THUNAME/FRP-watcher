@@ -62,7 +62,7 @@ FRP-watcher/
 
 ## 引用
 
-如果本论文对您的研究有帮助，欢迎引用。
+如果这些工作对您的研究有帮助，欢迎引用。
 
 ```
 @inproceedings{Wei2025gungnir,
@@ -88,4 +88,17 @@ FRP-watcher/
   pages={1-12},
   keywords={Protocols;Current measurement;Reinforcement learning;Transforms;Routing;Optimization;IPv6;fully responsive prefix;active probing},
   doi={10.1109/ICNP61940.2024.10858548}}
+```
+
+```
+@ARTICLE{11616620,
+  author={He, Lin and Wei, Chentian and Cheng, Daguo and Yin, Qilei and Jin, Boran and Wang, Zhaoan and Pan, Xiaoteng and Zhou, Sixu and Liu, Ying and Zhang, Shenglin and Tan, Fuchao and Liu, Wenmao},
+  journal={IEEE Transactions on Networking},
+  title={Do Not Fall Into the Trap: Efficiently Discovering IPv6 Fully Responsive Prefixes in the Wild},
+  year={2026},
+  volume={34},
+  number={},
+  pages={6364-6379},
+  keywords={Probes;Internet;Seeds (agriculture);Trees (botanical);Vegetation;Measurement;Ports (computers);Pediatrics;Conferences;Routing;IPv6;fully responsive prefix;active probing},
+  doi={10.1109/TON.2026.3715537}}
 ```

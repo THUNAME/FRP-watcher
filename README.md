@@ -63,7 +63,7 @@ Run ID: frp-refresh-20261106T122801Z
 
 ## Citation
 
-If you find this paper useful in your research, please cite this paper.
+If you find these papers useful in your research, please cite them.
 
 ```
 @inproceedings{Wei2025gungnir,
@@ -89,4 +89,17 @@ If you find this paper useful in your research, please cite this paper.
   pages={1-12},
   keywords={Protocols;Current measurement;Reinforcement learning;Transforms;Routing;Optimization;IPv6;fully responsive prefix;active probing},
   doi={10.1109/ICNP61940.2024.10858548}}
+```
+
+```
+@ARTICLE{11616620,
+  author={He, Lin and Wei, Chentian and Cheng, Daguo and Yin, Qilei and Jin, Boran and Wang, Zhaoan and Pan, Xiaoteng and Zhou, Sixu and Liu, Ying and Zhang, Shenglin and Tan, Fuchao and Liu, Wenmao},
+  journal={IEEE Transactions on Networking},
+  title={Do Not Fall Into the Trap: Efficiently Discovering IPv6 Fully Responsive Prefixes in the Wild},
+  year={2026},
+  volume={34},
+  number={},
+  pages={6364-6379},
+  keywords={Probes;Internet;Seeds (agriculture);Trees (botanical);Vegetation;Measurement;Ports (computers);Pediatrics;Conferences;Routing;IPv6;fully responsive prefix;active probing},
+  doi={10.1109/TON.2026.3715537}}
 ```
