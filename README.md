@@ -42,6 +42,22 @@ FRP-watcher/
 └── README.md            # Project documentation
 ```
 
+<!-- GUNGNIR_UPDATE_NOTES_START -->
+## Latest Gungnir Scanning Update
+
+本次长期检测逻辑更新（Gungnir 代码提交 945c1a4）：
+
+- ICMPv6、TCP80、TCP443、UDP53 的活跃性扫描统一接入双 ZMap worker 流水线，使用共享时间窗配额、按需整数采样和工作 conserving 调度。
+- 默认扫描参数调整为全局 5000 pps、每 BGP 平均 10 pps、每批最多 100000 地址、AS 不限速；四协议串行执行，避免协议间叠加速率。
+- 本轮活跃性扫描与 Granularity Correction 均使用 75% 响应阈值和提前停止；论文的 16/16（100%）仍是可配置的基准模式。
+- trap 继续使用动态初始修正长度 lc（目标前缀长度减 BGP 前缀长度，非正或未匹配回退 8）、规范父网合并、失败步长减半和 /0 边界终止。
+- 活跃性扫描直接输出阈值判定集合，不再经过旧提取器的“至少 10 个响应”二次筛选，保持小地址空间的阈值语义一致。
+- 本轮复用 2026-11-03 的四协议最新快照，不重新运行模型；输入和 trap 汇总结果均执行最短覆盖筛选，不合并未复验的相邻兄弟网。
+- 四协议全部成功后才统一发布并上传，任一阶段失败则不发布不完整结果。
+
+运行标识：frp-refresh-20261106T122801Z
+<!-- GUNGNIR_UPDATE_NOTES_END -->
+
 ## Citation
 
 If you find this paper useful in your research, please cite this paper.
