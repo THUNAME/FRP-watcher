@@ -41,7 +41,8 @@ FRP-watcher/
 │   └── analysis/        # Generated analysis charts and data
 ├── all_shortest.txt     # Take the shortest among all accumulated FRPs so far.
 ├── analyze_prefixes.py  # Script for generating analysis charts
-└── README.md            # Project documentation
+├── README.md            # Project documentation (English)
+└── README.zh.md         # 中文文档（Chinese documentation）
 ```
 
 <!-- GUNGNIR_UPDATE_NOTES_START -->
