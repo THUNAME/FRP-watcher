@@ -2526,6 +2526,13 @@
       "size": 215044587520.0,
       "cumulative_size": 40965904210688.0,
       "unique_total": 10615
+    },
+    {
+      "date": "2026-11-19",
+      "count": 16,
+      "size": 159182618624.0,
+      "cumulative_size": 41125086829312.0,
+      "unique_total": 10631
     }
   ],
   "TCP80": [
@@ -5041,6 +5048,13 @@
       "size": 101187584.0,
       "cumulative_size": 2622063844096.0,
       "unique_total": 3287
+    },
+    {
+      "date": "2026-11-19",
+      "count": 3,
+      "size": 196608.0,
+      "cumulative_size": 2622064040704.0,
+      "unique_total": 3290
     }
   ],
   "TCP443": [
